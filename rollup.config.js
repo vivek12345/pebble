@@ -10,21 +10,7 @@ const input = "compiled/index.js";
 const external = ["react", "react-calendar/dist/entry.nostyle"];
 
 const plugins = [
-  babel({
-    babelrc: false,
-    presets: [
-      [
-        "env",
-        {
-          targets: { node: "6" },
-          modules: false
-        }
-      ],
-      "stage-0",
-      "react"
-    ],
-    plugins: ["external-helpers"]
-  }),
+  babel(),
   resolve({
     extensions: [".js", ".jsx", ".json"]
   }),

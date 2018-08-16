@@ -13,7 +13,6 @@ export interface ButtonProps {
   className?: string;
   showRipple?: boolean;
   loading?: boolean;
-  filled?: boolean;
 }
 
 export interface DropDownButtonProps extends ButtonProps {

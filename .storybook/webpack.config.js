@@ -1,6 +1,4 @@
 module.exports = (baseConfig, env, config) => {
-  // This overrides the default svg loader for the the svgs present in font directory.
-  // The inlining of the SVGs was creating problem
   config.module.rules.unshift({
     test: /font.*\.svg$/,
     loader: require.resolve("file-loader")

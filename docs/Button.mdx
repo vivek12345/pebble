@@ -1,0 +1,37 @@
+---
+name: Button
+menu: Components
+---
+
+import { Playground, PropsTable } from 'docz'
+import Button from './src/components/Button'
+
+# Button
+
+## Properties
+
+<PropsTable of={Button} />
+
+## Basic usage
+
+<Playground>
+  <Button>Some message</Button>
+</Playground>
+
+## Using different kinds
+
+<Playground>
+  <Button type="secondary" onChange={() => {}}>Some message</Button>
+</Playground>
+
+## Use with children as a function
+
+<Playground>
+  {() => {
+    const message = 'Hello world'
+
+    return (
+      <Button>{message}</Button>
+    )
+  }}
+</Playground>

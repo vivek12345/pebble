@@ -1,14 +1,15 @@
 {
   "presets": [
     [
-      "env",
+      "@babel/preset-env",
       {
-        "targets": { "node": "6" }
+        "targets": { "node": "6" },
+        "modules": false
       }
     ],
-    "stage-0",
-    "react"
+    "@babel/preset-react"
   ],
+  "plugins": ["@babel/plugin-proposal-object-rest-spread"],
   "env": {
     "test": {
       "plugins": ["require-context-hook"]
