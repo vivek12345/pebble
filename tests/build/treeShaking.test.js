@@ -2,7 +2,7 @@ const path = require("path");
 const { rollup } = require("rollup");
 const terser = require("rollup-plugin-terser").terser;
 
-const pkg = require("../../package.json");
+const pkg = require("../../packages/pebble-web/package.json");
 
 async function compress() {
   const bundle = await rollup({

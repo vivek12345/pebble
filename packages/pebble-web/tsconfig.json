@@ -1,0 +1,21 @@
+{
+  "extends": "../../tsconfig.base.json",
+  "compilerOptions": {
+    "rootDir": "src",
+    "outDir": "compiled",
+    "declarationDir": "dist",
+    "lib": ["dom", "es2015", "es2016"],
+    "paths": {
+      "pebble-theme": ["../pebble-theme"]
+    },
+    "jsx": "preserve",
+    "typeRoots": [
+      "./node_modules/@types",
+      "./typings/npm",
+      "../../node_modules/@types"
+    ]
+  },
+  "include": ["src"],
+  "references": [{ "path": "../pebble-theme" }],
+  "exclude": ["node_modules", "dist", "tests", "compiled", "src/**/__tests__"]
+}
