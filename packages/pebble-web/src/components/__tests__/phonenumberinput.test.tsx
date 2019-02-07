@@ -169,7 +169,7 @@ describe("Component: Select", () => {
       (component.find(`#${PHONE_INPUT_ID}`).getDOMNode() as HTMLInputElement)
         .value
     ).toEqual("998127");
-    const props = component.find(Select).props() as SelectProps<string>;
+    const props = component.find(Select).props() as SelectProps<unknown>;
     expect(props.selected).toEqual(countries[0].country_code);
   });
 });
