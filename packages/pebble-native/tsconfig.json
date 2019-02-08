@@ -1,0 +1,30 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "esModuleInterop": true,
+    "importHelpers": true,
+    "declaration": true,
+    "declarationDir": "dist",
+    "target": "esnext",
+    "module": "esnext",
+    "jsx": "react",
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true,
+    "allowUnreachableCode": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noFallthroughCasesInSwitch": true,
+    "removeComments": false,
+    "preserveConstEnums": true,
+    "experimentalDecorators": true,
+    "sourceMap": true,
+    "skipLibCheck": true,
+    "outDir": "dist",
+    "isolatedModules": false,
+    "pretty": true,
+    "typeRoots": ["../../node_modules/@types", "./node_modules/@types"],
+    "lib": ["es2015", "es2016"]
+  },
+  "files": ["src/index.ts"],
+  "exclude": ["node_modules", "dist", "src/**/__tests__", "storybook"]
+}

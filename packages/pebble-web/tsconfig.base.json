@@ -22,7 +22,11 @@
     "sourceMap": true,
     "strict": true,
     "target": "ESNEXT",
-    "typeRoots": ["../../node_modules/@types" ,"./node_modules/@types", "./typings/npm"]
+    "typeRoots": ["./typings/npm"],
+    "types": [
+      "google.analytics",
+      "jest"
+    ]
   },
   "include": ["src", "typings"],
   "exclude": ["node_modules", "dist", "tests", "compiled", "src/**/__tests__"]
