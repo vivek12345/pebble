@@ -1,0 +1,26 @@
+{
+  "name": "pebble",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:anarock/pebble.git",
+  "author": "ritz078 <rkritesh078@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "@types/google.analytics": "^0.0.39",
+    "commitizen": "^3.0.5",
+    "cz-conventional-changelog": "^2.1.0",
+    "lerna": "^3.10.7",
+    "prettier": "^1.16.4",
+    "pretty-quick": "^1.10.0",
+    "sinon": "^7.2.3",
+    "typescript": "^3.3.1"
+  },
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "test": "lerna exec -- yarn test",
+    "build": "lerna exec -- yarn build"
+  }
+}
