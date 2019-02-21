@@ -1,0 +1,15 @@
+{
+  "extends": "../../tsconfig.base.json",
+  "compilerOptions": {
+    "declarationDir": "dist",
+    "lib": ["dom", "es2015", "es2016"],
+    "outDir": "compiled",
+    "typeRoots": ["./typings/npm"],
+    "types": [
+      "google.analytics",
+      "jest"
+    ]
+  },
+  "include": ["src", "typings"],
+  "exclude": ["node_modules", "dist", "tests", "compiled", "src/**/__tests__"]
+}

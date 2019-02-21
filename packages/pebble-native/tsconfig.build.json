@@ -1,0 +1,10 @@
+{
+  "extends": "../../tsconfig.base",
+  "compilerOptions": {
+    "declarationDir": "dist",
+    "lib": ["es2015", "es2016"],
+    "outDir": "compiled"
+  },
+  "files": ["src/index.ts"],
+  "exclude": ["node_modules", "dist", "src/**/__tests__", "storybook"]
+}
