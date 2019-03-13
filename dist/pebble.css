@@ -1,0 +1,359 @@
+@font-face {
+    font-family: "pebble";
+    src: url("./fonts/pebble.eot?93fde6862bfe44034203db3cd6c694cb?#iefix") format("embedded-opentype"),
+url("./fonts/pebble.woff2?93fde6862bfe44034203db3cd6c694cb") format("woff2"),
+url("./fonts/pebble.woff?93fde6862bfe44034203db3cd6c694cb") format("woff"),
+url("./fonts/pebble.ttf?93fde6862bfe44034203db3cd6c694cb") format("truetype");
+}
+
+.pi {
+    line-height: 1;
+}
+
+.pi:before {
+    font-family: pebble !important;
+    font-style: normal;
+    font-weight: normal !important;
+    vertical-align: top;
+}
+
+    .pi-add:before {
+        content: "\f101";
+    }
+    .pi-admin:before {
+        content: "\f102";
+    }
+    .pi-arrow-down:before {
+        content: "\f103";
+    }
+    .pi-arrow-drop-down:before {
+        content: "\f104";
+    }
+    .pi-arrow-drop-up:before {
+        content: "\f105";
+    }
+    .pi-arrow-right:before {
+        content: "\f106";
+    }
+    .pi-arrow-up:before {
+        content: "\f107";
+    }
+    .pi-back:before {
+        content: "\f108";
+    }
+    .pi-calendar:before {
+        content: "\f109";
+    }
+    .pi-call:before {
+        content: "\f10a";
+    }
+    .pi-camera:before {
+        content: "\f10b";
+    }
+    .pi-car:before {
+        content: "\f10c";
+    }
+    .pi-channel-partners:before {
+        content: "\f10d";
+    }
+    .pi-check:before {
+        content: "\f10e";
+    }
+    .pi-checkbox-selected:before {
+        content: "\f10f";
+    }
+    .pi-checkbox-unfilled:before {
+        content: "\f110";
+    }
+    .pi-checkbox-unselected:before {
+        content: "\f111";
+    }
+    .pi-chevron-left:before {
+        content: "\f112";
+    }
+    .pi-clock:before {
+        content: "\f113";
+    }
+    .pi-close-circle-filled:before {
+        content: "\f114";
+    }
+    .pi-close-circle:before {
+        content: "\f115";
+    }
+    .pi-close:before {
+        content: "\f116";
+    }
+    .pi-copy:before {
+        content: "\f117";
+    }
+    .pi-delete:before {
+        content: "\f118";
+    }
+    .pi-digital-leads:before {
+        content: "\f119";
+    }
+    .pi-direct-walkins:before {
+        content: "\f11a";
+    }
+    .pi-direction:before {
+        content: "\f11b";
+    }
+    .pi-document-uploaded:before {
+        content: "\f11c";
+    }
+    .pi-document:before {
+        content: "\f11d";
+    }
+    .pi-dot:before {
+        content: "\f11e";
+    }
+    .pi-download:before {
+        content: "\f11f";
+    }
+    .pi-edit-2:before {
+        content: "\f120";
+    }
+    .pi-edit:before {
+        content: "\f121";
+    }
+    .pi-face-to-face-2:before {
+        content: "\f122";
+    }
+    .pi-face-to-face:before {
+        content: "\f123";
+    }
+    .pi-file:before {
+        content: "\f124";
+    }
+    .pi-filter:before {
+        content: "\f125";
+    }
+    .pi-fire:before {
+        content: "\f126";
+    }
+    .pi-follow-up-2:before {
+        content: "\f127";
+    }
+    .pi-follow-up:before {
+        content: "\f128";
+    }
+    .pi-help-and-support:before {
+        content: "\f129";
+    }
+    .pi-history:before {
+        content: "\f12a";
+    }
+    .pi-home-filled-2:before {
+        content: "\f12b";
+    }
+    .pi-home-filled:before {
+        content: "\f12c";
+    }
+    .pi-home:before {
+        content: "\f12d";
+    }
+    .pi-incoming-call-2:before {
+        content: "\f12e";
+    }
+    .pi-incoming-call:before {
+        content: "\f12f";
+    }
+    .pi-incoming-calls:before {
+        content: "\f130";
+    }
+    .pi-info:before {
+        content: "\f131";
+    }
+    .pi-invoice:before {
+        content: "\f132";
+    }
+    .pi-junk:before {
+        content: "\f133";
+    }
+    .pi-leads-tab:before {
+        content: "\f134";
+    }
+    .pi-link:before {
+        content: "\f135";
+    }
+    .pi-location:before {
+        content: "\f136";
+    }
+    .pi-logout-door:before {
+        content: "\f137";
+    }
+    .pi-logout:before {
+        content: "\f138";
+    }
+    .pi-mail:before {
+        content: "\f139";
+    }
+    .pi-mandates:before {
+        content: "\f13a";
+    }
+    .pi-mic:before {
+        content: "\f13b";
+    }
+    .pi-missed-call:before {
+        content: "\f13c";
+    }
+    .pi-more:before {
+        content: "\f13d";
+    }
+    .pi-not-called:before {
+        content: "\f13e";
+    }
+    .pi-note-1:before {
+        content: "\f13f";
+    }
+    .pi-note:before {
+        content: "\f140";
+    }
+    .pi-notification:before {
+        content: "\f141";
+    }
+    .pi-offline:before {
+        content: "\f142";
+    }
+    .pi-open-external:before {
+        content: "\f143";
+    }
+    .pi-opening-quote:before {
+        content: "\f144";
+    }
+    .pi-other-leads:before {
+        content: "\f145";
+    }
+    .pi-others:before {
+        content: "\f146";
+    }
+    .pi-outgoing-call-2:before {
+        content: "\f147";
+    }
+    .pi-outgoing-call:before {
+        content: "\f148";
+    }
+    .pi-patchout:before {
+        content: "\f149";
+    }
+    .pi-pause:before {
+        content: "\f14a";
+    }
+    .pi-phone-2:before {
+        content: "\f14b";
+    }
+    .pi-phone-filled:before {
+        content: "\f14c";
+    }
+    .pi-phone:before {
+        content: "\f14d";
+    }
+    .pi-play:before {
+        content: "\f14e";
+    }
+    .pi-plus:before {
+        content: "\f14f";
+    }
+    .pi-profile-1:before {
+        content: "\f150";
+    }
+    .pi-profile:before {
+        content: "\f151";
+    }
+    .pi-radio-check-filled:before {
+        content: "\f152";
+    }
+    .pi-radio-check:before {
+        content: "\f153";
+    }
+    .pi-radio-selected:before {
+        content: "\f154";
+    }
+    .pi-radio:before {
+        content: "\f155";
+    }
+    .pi-reimbursements:before {
+        content: "\f156";
+    }
+    .pi-reschedule:before {
+        content: "\f157";
+    }
+    .pi-reset:before {
+        content: "\f158";
+    }
+    .pi-revisit:before {
+        content: "\f159";
+    }
+    .pi-search:before {
+        content: "\f15a";
+    }
+    .pi-self-added:before {
+        content: "\f15b";
+    }
+    .pi-share:before {
+        content: "\f15c";
+    }
+    .pi-site-visit-2:before {
+        content: "\f15d";
+    }
+    .pi-site-visit:before {
+        content: "\f15e";
+    }
+    .pi-sms:before {
+        content: "\f15f";
+    }
+    .pi-spinner:before {
+        content: "\f160";
+    }
+    .pi-transferred:before {
+        content: "\f161";
+    }
+    .pi-travel:before {
+        content: "\f162";
+    }
+    .pi-trophy:before {
+        content: "\f163";
+    }
+    .pi-unchecked-radio:before {
+        content: "\f164";
+    }
+    .pi-undo:before {
+        content: "\f165";
+    }
+    .pi-update:before {
+        content: "\f166";
+    }
+    .pi-updating:before {
+        content: "\f167";
+    }
+    .pi-upload:before {
+        content: "\f168";
+    }
+    .pi-user:before {
+        content: "\f169";
+    }
+    .pi-warning-line:before {
+        content: "\f16a";
+    }
+    .pi-warning:before {
+        content: "\f16b";
+    }
+    .pi-whatsapp:before {
+        content: "\f16c";
+    }
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+    font-family: "Anarock", -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-tap-highlight-color: transparent;
+}
+
+body {
+    box-sizing: border-box;
+}

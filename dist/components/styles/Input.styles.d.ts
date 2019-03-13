@@ -1,0 +1,10 @@
+export declare const inputMarginBottom = 20;
+export declare const wrapperStyle: string;
+export declare const inputStyle: string;
+export declare const inputReadOnlyStyle: string;
+export declare const inputDisabledStyle: string;
+export declare const inputTextAreaStyle: string;
+export declare const highlightStyle: string;
+export declare const labelStyle: string;
+export declare const messageStyle: string;
+export declare const loadingStyle: string;
